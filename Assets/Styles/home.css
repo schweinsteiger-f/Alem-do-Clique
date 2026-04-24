@@ -1,24 +1,34 @@
+/* seletor universal da classe body */
 body{
     background-color: #bee7ff;
 }
+
+/* titulo do site */
 #titulo{
     text-align: center;
     color: #1717ff;
     font-family: 'Arial', sans-serif;
     font-size: 39px;
 }
+
+/* subtitulo  */
 #subtitulo{
     text-align: center;
     color: #00005e;
     font-family: 'Arial', sans-serif;
     font-size: 25px;
 }
+
+/* topo do site */
 header{
     margin-bottom: 40px;
 }
+
+/* textos do aviso sobre oque e eletiva */
 .aviso p{
 text-align: left;
 }
+/* este e o aviso */
 .aviso{
     margin-left: 300px;
     border: solid 2px rgba(197, 197, 197, 0.849);
@@ -27,4 +37,14 @@ text-align: left;
     margin-right: 300px;
     margin-top: 60px;
     margin-bottom: 20px;
+}
+
+/* outro aviso */
+.aviso-2{
+     margin-left: 300px;
+    border: solid 2px rgba(197, 197, 197, 0.849);
+    background-color: rgba(190, 190, 190, 0.384);
+    border-radius: 12px;
+    margin-right: 300px;
+    margin-top: 60px;
 }
