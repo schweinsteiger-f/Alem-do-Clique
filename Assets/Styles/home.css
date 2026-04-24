@@ -38,13 +38,3 @@ text-align: left;
     margin-top: 60px;
     margin-bottom: 20px;
 }
-
-/* outro aviso */
-.aviso-2{
-     margin-left: 300px;
-    border: solid 2px rgba(197, 197, 197, 0.849);
-    background-color: rgba(190, 190, 190, 0.384);
-    border-radius: 12px;
-    margin-right: 300px;
-    margin-top: 60px;
-}
