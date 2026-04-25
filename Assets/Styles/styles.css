@@ -40,7 +40,7 @@ body{
 button {
     color: #89e7ff;
     background-color: #051eff;
-    font-size: 26px;
+    font-size: 27px;text-align: center;
     border: solid 1px rgb(6, 6, 148);
     padding: 10px;
     border-radius: 10px;
@@ -55,7 +55,7 @@ button {
 
 /* ao deixar o mouse sobre o botão  */
 button:hover{
-    font-size: 27px;
+    font-size: 28px;
      border: solid 1px rgb(6, 6, 148);
     padding: 10px;
     border-radius: 10px;
@@ -68,7 +68,7 @@ button:hover{
     color: black;
     background-color: rgba(206, 206, 206, 0.479);
     font-size: 19px;
-    border: solid 1px gray;
+    border: solid 1px rgb(122, 122, 122);
 }
 
 /* div para o tema */
@@ -76,4 +76,20 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* texto para o botão de entrar */
+#texto{
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: larger;
+}
+
+/* media queries */
+@media (max-width: 856) {
+        .text-container{
+            max-width: 90%;
+        }
+        
 }
